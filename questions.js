@@ -1,4 +1,4 @@
-// Adapt these questions to the evidence available in your LU3 corpus.
+// Adapt these questions to the evidence available in your own corpus.
 const questions = [
   'What is cache invalidation?',
   'How do I stop stale cached post pages?',

@@ -14,7 +14,7 @@ A small RAG endpoint, `GET /ask?q=...`, for a public developer knowledge base. T
 ## Prerequisites
 
 - Node.js 20 or newer
-- PostgreSQL with pgvector, and your populated LU3 table: `posts_embeddings(id INT, text TEXT, embedding vector(N), model_version TEXT)`
+- PostgreSQL with pgvector, and your own populated table of embedded posts: `posts_embeddings(id INT, text TEXT, embedding vector(N), model_version TEXT)`
 - Redis
 - An OpenAI key with access to your embedding model and a chat generation model
 - Stored vectors must come from the same model as `EMBEDDING_MODEL`. Do not silently switch models.
